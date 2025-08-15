@@ -20,18 +20,20 @@ Para rodar o projeto localmente, siga os passos abaixo:
 ```bash
 git clone https://github.com/vitorkloy/green-alert.git
 ```
-
-2. Navegue até o diretório do projeto
+### 2. Navegue até o diretório do projeto
+```bash
 
 cd green-alert
-
-3. Instale as dependências
+```
+### 3. Instale as dependências
+```bash
 
 npm install
-
-4. Inicie o servidor de desenvolvimento
-
+```
+### 4. Inicie o servidor de desenvolvimento
+```bash
 npm run dev
+```
 
 A aplicação estará disponível em http://localhost:3000.
 
