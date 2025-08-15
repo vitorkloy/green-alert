@@ -54,6 +54,4 @@ Interface intuitiva e responsiva
 
 🌐 Acesso Online
 
-Você pode acessar a versão online da aplicação clicando no link abaixo:
-
-green-alert-tau.vercel.app
+Você pode acessar a versão online da https://green-alert-tau.vercel.app/
