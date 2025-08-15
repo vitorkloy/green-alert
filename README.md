@@ -1,10 +1,11 @@
-# Green Alert
+Green Alert
 
-Green Alert é uma aplicação web desenvolvida para o 1º Hackathon de Informática da Univap (2025). O projeto tem como objetivo monitorar o clima baseado na localização do usuário,fornecendo alertas em tempo real sobre o estado atual do clima.
+Green Alert é uma aplicação web desenvolvida para o 1º Hackathon de Informática da Univap (2025). O projeto tem como objetivo monitorar o clima baseado na localização do usuário, fornecendo alertas em tempo real sobre o estado atual do clima.
+
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+🚀 Tecnologias Utilizadas
 
 Frontend: React, TypeScript, Vite
 
@@ -12,40 +13,50 @@ Backend: [Tecnologias do backend]
 
 Banco de Dados: [Banco de dados utilizado]
 
+
+
 ---
 
-## 📦 Instalação
+📦 Instalação
 
 Para rodar o projeto localmente, siga os passos abaixo:
 
-### Clone o repositório
+1. Clone o repositório
+
 git clone https://github.com/vitorkloy/green-alert.git
 
-### Navegue até o diretório do projeto
+2. Navegue até o diretório do projeto
+
 cd green-alert
 
-### Instale as dependências
+3. Instale as dependências
+
 npm install
 
-### Inicie o servidor de desenvolvimento
+4. Inicie o servidor de desenvolvimento
+
 npm run dev
 
 A aplicação estará disponível em http://localhost:3000.
 
+
 ---
 
-## 🔧 Funcionalidades
+🔧 Funcionalidades
 
-Monitoramento em tempo real do clima por API
+Monitoramento em tempo real do clima via API
 
-Alertas visuais para indicar o a condições climáticas 
+Alertas visuais para indicar as condições climáticas
 
 Interface intuitiva e responsiva
 
+
+
 ---
 
-## 🌐 Acesso Online
+🌐 Acesso Online
 
 Você pode acessar a versão online da aplicação clicando no link abaixo:
 
-👉 green-alert-tau.vercel.app
+green-alert-tau.vercel.app
+
