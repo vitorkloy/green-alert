@@ -13,9 +13,7 @@ Banco de Dados: [Banco de dados utilizado]
 Para rodar o projeto localmente, siga os passos abaixo:
 
 # Clone o repositório
-'''bash
 git clone https://github.com/vitorkloy/green-alert.git
-'''
 
 # Navegue até o diretório do projeto
 cd green-alert
