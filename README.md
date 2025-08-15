@@ -4,7 +4,7 @@ Green Alert é uma aplicação web desenvolvida para o 1º Hackathon de Informá
 
 ---
 
-##🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
 Frontend: React, TypeScript, Vite
 
@@ -14,7 +14,7 @@ Banco de Dados: [Banco de dados utilizado]
 
 ---
 
-##📦 Instalação
+## 📦 Instalação
 
 Para rodar o projeto localmente, siga os passos abaixo:
 
