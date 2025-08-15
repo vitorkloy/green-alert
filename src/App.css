@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --bg: #0b0f14;
+  --card: #121822;
+  --text: #e9eef5;
+  --muted: #a9b3c1;
+  --primary: #2bd67b;
+  --danger: #ff4d4f;
+  --warn: #ffb020;
+  --border: #1f2a38;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+header,
+footer {
+  text-align: center;
+  padding: 16px;
+}
+
+header h1 {
+  margin: 8px 0 0;
+}
+
+.container {
+  display: grid;
+  gap: 16px;
+  padding: 16px;
+  max-width: 1100px;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+  margin: 0 0 12px;
+}
+
+form {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+input,
+select,
+button {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: #0e141c;
+  color: var(--text);
+}
+
+button {
+  cursor: pointer;
+  border-color: transparent;
+  background: #182131;
+}
+
+button:hover {
+  background: #1e2a3d;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin: 8px 0;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 8px;
+}
+
+li.item {
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: #0e141c;
+  display: grid;
+  gap: 4px;
+}
+
+.badge {
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  width: max-content;
+}
+
+.badge.warn {
+  background: rgba(255, 176, 32, 0.15);
+  color: var(--warn);
+  border: 1px solid rgba(255, 176, 32, 0.4);
+}
+
+.badge.danger {
+  background: rgba(255, 77, 79, 0.15);
+  color: var(--danger);
+  border: 1px solid rgba(255, 77, 79, 0.4);
+}
+
+.badge.info {
+  background: rgba(43, 214, 123, 0.12);
+  color: var(--primary);
+  border: 1px solid rgba(43, 214, 123, 0.4);
+}
+
+small.muted {
+  color: var(--muted);
+}
