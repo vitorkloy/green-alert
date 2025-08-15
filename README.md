@@ -1,69 +1,44 @@
-# React + TypeScript + Vite
+Green Alert é uma aplicação web desenvolvida para o 1º Hackathon de Informática da Univap (2025). O projeto tem como objetivo monitorar o clima baseado na localização do usuário,fornecendo alertas em tempo real sobre o estado atual do clima.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Tecnologias Utilizadas
 
-Currently, two official plugins are available:
+Frontend: React, TypeScript, Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Backend: [Tecnologias do backend, se aplicável]
 
-## Expanding the ESLint configuration
+Banco de Dados: [Banco de dados utilizado, se aplicável]
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+📦 Instalação
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Para rodar o projeto localmente, siga os passos abaixo:
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+# Clone o repositório
+'''bash
+git clone https://github.com/vitorkloy/green-alert.git
+'''
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+# Navegue até o diretório do projeto
+cd green-alert
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+# Instale as dependências
+npm install
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# Inicie o servidor de desenvolvimento
+npm run dev
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+A aplicação estará disponível em http://localhost:3000.
+
+🔧 Funcionalidades
+
+Monitoramento em tempo real do clima por API
+
+Alertas visuais para indicar o a condições climáticas 
+
+Interface intuitiva e responsiva
+
+
+🌐 Acesso Online
+
+Você pode acessar a versão online da aplicação clicando no link abaixo:
+
+👉 green-alert-tau.vercel.app
