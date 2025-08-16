@@ -55,3 +55,4 @@ Interface intuitiva e responsiva
 ## 🌐 Acesso Online
 
 Você pode acessar a versão online da https://green-alert-univap.vercel.app/
+ou https://univap.guilhermearanega.com.br/
