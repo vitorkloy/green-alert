@@ -1,7 +1,7 @@
-/* import { useState } from "react"; */
 import "./App.css";
-
-import "./App.css";
+import LogOutIcon from '../public/icons8-sair-32.png';
+import { Footer } from "./components/Footer";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -9,27 +9,14 @@ function App() {
       <header>
         <div className="title-with-icon">
           <h1>Alerta Verde</h1>
+          <Link to="/" className="auth-link">
+            <img src={LogOutIcon} alt="LogOut" className="LogOutIcon" />
+          </Link>
         </div>
         <p>Monitoramento climático com alertas por localização</p>
       </header>
 
       <main className="container">
-        <section className="card">
-          <h2>Usuários</h2>
-          <form id="user-form">
-            <input id="user-name" placeholder="Nome" required />
-            <input id="user-email" placeholder="Email (opcional)" />
-            <button type="submit">Cadastrar Usuário</button>
-          </form>
-          <div className="row">
-            <label htmlFor="user-select">Selecionar usuário:</label>
-            <select id="user-select"></select>
-            <button id="refresh-users" type="button">
-              Atualizar
-            </button>
-          </div>
-        </section>
-
         <section className="card">
           <h2>Localidades</h2>
           <form id="loc-form">
@@ -40,7 +27,7 @@ function App() {
           </form>
           <div className="row">
             <button id="load-locs" type="button">
-              Carregar Localidades do Usuário
+              Carregar Localidades
             </button>
             <button id="monitor-all" type="button">
               Monitorar Todas
@@ -53,7 +40,7 @@ function App() {
           <h2>Alertas</h2>
           <div className="row">
             <button id="load-alerts" type="button">
-              Carregar Alertas do Usuário
+              Carregar Alertas
             </button>
           </div>
           <ul id="alert-list">
@@ -82,9 +69,7 @@ function App() {
         </section>
       </main>
 
-      <footer>
-        <small>OpenWeatherMap API | Projeto didático</small>
-      </footer>
+      <Footer></Footer>
     </>
   );
 }
