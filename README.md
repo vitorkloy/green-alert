@@ -40,7 +40,7 @@ A aplicação estará disponível em http://localhost:3000.
 
 ---
 
-🔧 Funcionalidades
+## 🔧 Funcionalidades
 
 Monitoramento em tempo real do clima via API
 
@@ -52,6 +52,6 @@ Interface intuitiva e responsiva
 
 ---
 
-🌐 Acesso Online
+## 🌐 Acesso Online
 
 Você pode acessar a versão online da https://green-alert-univap.vercel.app/
